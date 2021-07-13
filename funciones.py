@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-def al_cuadrado(dato):
-    return dato*dato
+al_cuadrado = lambda dato: dato*dato
 
 
 def acumulador():
