@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-def cuantas_letras(frase):
+def cuantas_letras(frase: str) -> int:
     palabras = frase.split(" ")
     letras = 0
     for p in palabras:
@@ -9,5 +9,6 @@ def cuantas_letras(frase):
     return f"La frase «{frase}» tiene {letras} letras"
 
 
+print(cuantas_letras(33))
 print(cuantas_letras("En un lugar de La Mancha"))
 print(cuantas_letras("Algo huele mal en Dinamarca"))
