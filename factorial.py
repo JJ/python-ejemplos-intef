@@ -3,7 +3,7 @@
 import functools
 
 
-@functools.lru_cache(maxsize=1024)
+# @functools.lru_cache(maxsize=1024)
 def factorial(n):
     if n <= 2:
         return n
