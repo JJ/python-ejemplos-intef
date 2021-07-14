@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+import functools
+
+
+@functools.lru_cache(maxsize=None)
 def fib(n):
     if n <= 2:
         return 1
@@ -8,5 +12,5 @@ def fib(n):
     return fib(n-1)+fib(n-2)
 
 
-for i in range(33):
+for i in range(1000):
     print(f"{i} → {fib(i)}")
