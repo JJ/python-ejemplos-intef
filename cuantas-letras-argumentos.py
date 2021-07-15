@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 
-palabras = "Se las lleva el viento"
-print(palabras)
-
-
 def cuantas_letras(frase, separador=r'\.|\s+'):
     '''
     Args:
@@ -21,5 +17,4 @@ def cuantas_letras(frase, separador=r'\.|\s+'):
 
 
 print(cuantas_letras("En un lugar de La Mancha", " "))
-print(palabras)
 print(cuantas_letras(frase="Algo huele mal en Dinamarca."))
